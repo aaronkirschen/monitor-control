@@ -33,7 +33,7 @@ LEFT_RIGHT_ONLY=false
 print_help() {
   echo '''
 Configure monitors with kscreen-doctor. This script allows saving and restoring multi-monitor layouts, disabling
-specific monitors, and enabling only the left or right monitor. Monitor
+specific monitors, and enabling only the left and/or right monitor. Monitor
 positions and priorities are persisted in a config file.
  '''
   echo "Usage: $(basename $0) [OPTIONS] [MONITOR]..."
